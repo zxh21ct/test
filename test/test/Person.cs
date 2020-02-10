@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace test
 {
-    class Program
+    class Person
     {
-        static void Main(string[] args)
-        {
-            System.Console.Write("hello");
-
-        }
+        public string FirstName { get; set; }
     }
 }
